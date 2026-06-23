@@ -16,10 +16,10 @@ export const Route = createFileRoute("/")({
    Drop your 6 photos and 1 music file into the /public folder
    ========================================================= */
 const GALLERY: { src: string; caption: string }[] = [
-  { src: "/photo1.jpg", caption: "us & the tulips 🌷" },
-  { src: "/photo2.jpg", caption: "my sundaaamm" },
-  { src: "/photo3.jpg", caption: "ellaam ellaam" },
-  { src: "/photo4.jpg", caption: "karal blooom" },
+  { src: "/photo1.jpg", caption: "Inshallah i get to look at u all my life🌷" },
+  { src: "/photo2.jpg", caption: "my bombb" },
+  { src: "/photo3.jpg", caption: "my ellaam ellaam" },
+  { src: "/photo4.jpg", caption: "my treasure" },
   { src: "/photo5.jpg", caption: "forever yours" },
   { src: "/photo6.jpg", caption: "🥥💗💣" },
 ];
