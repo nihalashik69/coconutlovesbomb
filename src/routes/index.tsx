@@ -13,20 +13,19 @@ export const Route = createFileRoute("/")({
 });
 
 /* =========================================================
-   Replace these with your real photos later.
-   You can use local imports or URLs. Just keep the array.
+   Drop your 6 photos and 1 music file into the /public folder
    ========================================================= */
 const GALLERY: { src: string; caption: string }[] = [
-  { src: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600", caption: "us & the tulips 🌷" },
-  { src: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=600", caption: "my sundaaamm" },
-  { src: "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?w=600", caption: "ellaam ellaam" },
-  { src: "https://images.unsplash.com/photo-1494178270175-e96de2971df9?w=600", caption: "karal blooom" },
-  { src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600", caption: "forever yours" },
-  { src: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600", caption: "🥥💗💣" },
+  { src: "/photo1.jpg", caption: "us & the tulips 🌷" },
+  { src: "/photo2.jpg", caption: "my sundaaamm" },
+  { src: "/photo3.jpg", caption: "ellaam ellaam" },
+  { src: "/photo4.jpg", caption: "karal blooom" },
+  { src: "/photo5.jpg", caption: "forever yours" },
+  { src: "/photo6.jpg", caption: "🥥💗💣" },
 ];
 
-// Replace this with your own audio file later (drop into /public and update path)
-const AUDIO_SRC = "https://cdn.pixabay.com/download/audio/2022/10/25/audio_946bc6cbf2.mp3?filename=lofi-piano-115478.mp3";
+// Your music file goes here
+const AUDIO_SRC = "/music.mp3";
 
 type Scene = "seed" | "messages" | "bomb" | "gallery" | "stars";
 

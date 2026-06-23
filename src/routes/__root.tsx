@@ -10,7 +10,6 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
   return (
@@ -37,9 +36,6 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
-  useEffect(() => {
-    reportLovableError(error, { boundary: "tanstack_root_error_component" });
-  }, [error]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -85,8 +81,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "For Hadiya 🌷" },
       { name: "twitter:description", content: "To allllwaaaaysssss keep u happy" },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/150991a4-063a-4a23-82d3-83453a1ca233/id-preview-8eef91fe--f9b6ce2a-8f8c-4b08-b179-9505dd043175.lovable.app-1782240185235.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/150991a4-063a-4a23-82d3-83453a1ca233/id-preview-8eef91fe--f9b6ce2a-8f8c-4b08-b179-9505dd043175.lovable.app-1782240185235.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
