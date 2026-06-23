@@ -203,11 +203,11 @@ const MESSAGES = [
   "my adipoliest",
   "my extremely smart",
   "and diabolically crazzyy aaaya Haaadiyaaaaaaa",
-  "im soooo soooooooo deeply in love with uu muthhee",
-  "(soooo in love that i want to pootal myself in a cage with u and throw us down a deeeeep deeeeep hole so no one can separate myself from you)",
+  "im soooo soooooooo deeply in love with uuuu muthhee",
+  "(soooo in love that i want to pootal myself in a cage with u and throw us in a deeeeep lake so no one can separate myself from you)",
   "im exaccctly where i want to be rn (#obsessed #obsessessionnn #illnevergiveuspace)",
-  "myyyy onee and onlyyy.... myyy ellaaam ellaaaam",
-  "myyyyyyyyyyy HAAAAAADIIYAAAAAAA",
+  "myyyy onee and onlyyy.... myyy ellaaam ellaaaammmm",
+  "myyyy HAAAAAADIIYAAAAAAA",
 ];
 
 function MessagesScene({ onDone }: { onDone: () => void }) {
@@ -428,7 +428,7 @@ function GalleryScene({ onDone }: { onDone: () => void }) {
 
 const FINAL_MESSAGES = [
   "Happppyyyyy Happppppppyyyyy Happiesssttt Birthhhdayyyyyyy My Loveeeeeee, Endeeee swannddaaammm Haaaadiyaaaaaa <3<3<3",
-  "From today till the enddd of the worlddd",
+  "From day oneeee to untill foreverrr",
   "🥥💗💣",
 ];
 
